@@ -1,0 +1,16 @@
+.roulette {
+    text-align: center;
+}
+
+.numberDisplay {
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition: opacity 1s ease-in-out;
+}
+
+
+.startButton {
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+}

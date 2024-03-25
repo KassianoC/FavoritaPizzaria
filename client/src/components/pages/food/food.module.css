@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.section1{
+    gap: 1em;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    border: solid 2px #b61100;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 button {
+    width: 50%;
+    font-size: 1em;
+    padding: 0.5em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #b61100;
+}
+
+.section1 input,
+.section1 select {
+    width: 50%;
+    border: none;
+    height: 2em;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgb(139, 139, 139);
+}
+
+.name,
+.container h2{
+    font-family: "Bebas Neue";
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #FF9835;
+    background-color: #b61100;
+    padding: 0.2em;
+    border-radius: 40px;
+}
+
+.container h2{
+    background-color: transparent;
+    border: solid 3px #b61100 ;
+
+}
+
+.select{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.section1 img{
+    width: 12em;
+    height: 12em;
+    border-radius: 10px;
+
+
+}

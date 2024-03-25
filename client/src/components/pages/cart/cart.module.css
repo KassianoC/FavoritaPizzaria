@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container button {
+    width: 50%;
+    font-size: 1em;
+    padding: 0.5em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #b61100;
+
+}
+
+.container img {
+    width: 6em;
+    height: 6em;
+    border-radius: 10px;
+}
+
+.container h1,
+.container h3{
+    font-size: 3em;
+    margin:  0 auto;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.1em;
+    color: #FF9835;
+}
+
+.container h3 {
+    border: solid 2px #b61100;
+    padding: 0.2em;
+    border-radius: 1em;
+    font-size: 1.8em;
+}
+
+.section1 {
+    width: 100vw;
+    gap: 0.5em;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCard {
+    background-color: white;
+    border: solid 1px #b61100;
+    border-radius: 5px;
+    padding: 0.3em;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.info p,
+.info h5 {
+    margin: 2px;
+}
+
+.product p:first-of-type {
+    color: #b61100;
+    font-size: 1.2em;
+}
+
+.containerCard input {
+    text-align: center;
+    box-shadow: 4px 4px 4px rgb(139, 139, 139);
+    border: none;
+    height: 1.5em;
+    border-radius: 5px;
+    align-items: flex-end;
+    width: 3em;
+}
+
+.containerCard button {
+    width: 100%; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2{
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 1em;
+    align-items: center;
+    border: solid 2px #b61100;
+}
+
+.section2 form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.paymethod{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.button{
+    gap: 1em;
+    display: flex;
+}
+
+.button button {
+    width: 25%;
+}
+
+.button  button:first-child{
+    width: 75%;
+}
+
+.entrega{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.bairro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+
+}

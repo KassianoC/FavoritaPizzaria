@@ -1,0 +1,21 @@
+.container{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.2em;
+}
+
+.container p{
+    color: #FF9835;
+}
+
+.container p:first-child{
+    font-size: 2em;
+}
+
+.container p:nth-child(2){
+    
+}
+

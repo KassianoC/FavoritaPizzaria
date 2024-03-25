@@ -1,0 +1,94 @@
+/* https://paletton.com/#uid=7040u0kw0mQmoQWppENYgb5+R4S  cores */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle, #808080, #000000);
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+li,
+ul {
+    text-decoration: none;
+    gap: 1em;
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+input:focus {
+    outline: none;
+}
+
+ form input,
+ form textarea,
+ form select {
+    border: none;
+    height: 2.5em;
+    border-radius: 5px;
+}
+
+ form input,
+ form textarea,
+ form select {
+    box-shadow: 4px 4px 4px rgb(139, 139, 139);
+}
+
+.none {
+    display: none;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    ;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table td {
+    background-color: white;
+    color: black
+}
+
+.table tbody {
+    cursor: pointer;
+}
+
+.errormessage {
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+
+    .table th,
+    .table td {
+        padding: 4px;
+        text-align: left;
+        font-size: 0.4em;
+        text-align: center;
+        width: 100px;
+    }
+
+
+}

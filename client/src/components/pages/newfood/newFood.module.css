@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.msg{
+    color: #b61100;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    border-radius: 6px;
+    padding: 0.2em;
+}
+
+.form {
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    border: solid 1px #b61100;
+}
+
+.form h2 {
+    color: #b61100;
+    margin: 0;
+}
+
+.form input,
+.form textarea,
+.form select {
+    border: none;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    box-shadow: 4px 4px 4px rgb(139, 139, 139);
+}
+
+.section1 {
+    
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+}
+
+.variations{
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.variations div{
+    color: #b61100;
+    gap: 0.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.prices{
+    display: flex;  
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.section1 button{
+    width: 50%;
+    font-size: 1em;
+    padding: 0.5em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #b61100;
+}
+
+.section2{
+    display: flex;
+    width: 30%;
+}
+
+.section2 input {
+    display: none;
+}
+
+.section2 img{
+    width: 10em;
+}

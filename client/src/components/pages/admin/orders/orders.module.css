@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    width: 100%;
+    display: flex;
+    padding: 1em;
+}
+
+.section1 {
+    gap: 1em;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.table {
+    width: 97%;
+    border-collapse: collapse;
+    border: 1px solid #ff3700;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ff3700;
+    ;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+

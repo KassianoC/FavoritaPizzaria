@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container h1{
+    font-size: 3em;
+    margin: 0 auto;
+    padding: 0.1em;
+    color: #FF9835;
+    font-family: "Bebas Neue";
+    font-weight: 100;
+}
+
+.section1{
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    display: flex;
+    overflow-x: scroll;
+    /* scrollbar-width: none; */
+    gap: 0.5em;
+    width: 94vw;
+    
+}
+
+.bebidas{
+    background-image:  linear-gradient(to top right, #001418,#47C8E0);
+}
+.food{
+    background-image: linear-gradient(to top right, #b61100, #FF9835);
+}
+
+.section1 div  {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4em 1em;
+    border-radius: 5px;
+}
+
+.section1 div h2,
+.section1 div span,
+.section1 div del{
+    font-weight: bold;
+    margin: auto;
+    color: #fff;
+}
+
+.section1 div h2{
+    padding: 0.5em  0;
+  
+}
+
+.section1 div span{
+    font-size: 2em;
+    font-family: "Bebas Neue";
+}
+
+.section1 div del{
+    font-size: 1.3em;
+}
+
+.section1 div img{
+    border-radius: 10px;
+    max-height: 40vh;
+}

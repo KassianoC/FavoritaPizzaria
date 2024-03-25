@@ -1,0 +1,115 @@
+.container{
+    padding: 0.5em;
+    height: 4em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #b61100;
+    flex-direction: column;
+
+}
+
+.section1{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.section1 div img{
+   max-width: 4em;
+   border-radius: 100%;
+}
+
+.section1 a{
+    color: #FF9835;
+}
+
+.admin{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.car, 
+.carReturn{
+    gap: 0.2em;
+    transition: 1s;
+    
+}
+
+.car {
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.carReturn {
+    font-size: 1.3em;
+    transition: 1s;
+}
+
+.car sup,
+.carReturn sup{
+    font-family: "Bebas Neue";
+    color: #FF9835;
+}
+
+.menu {
+    background-image: url('../../../img/papel2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    width: max-content;
+    transition: left 0.7s;
+    min-height: 100vh;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+.logo {
+    background-color: #b61100;
+    display: flex;
+    width: 100%;
+    height: 10em;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0 0.5em; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu ul li{
+    border-bottom: solid 1px blue;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.menu ul li a {
+    width: 100%;
+    font-family: cursive;
+    
+}
+
+.showMenu {
+    left: 0;
+}
+
+.btnmenu {
+    font-size: 1.5em;
+    color: #FF9835;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+

@@ -1,0 +1,86 @@
+.container{
+
+}
+.section1{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.containerinfo{
+    padding: 1em;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card li{
+    color: black;
+}
+
+.containerinfo a{
+    color: black;
+}
+
+.containerinfo div{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 ul{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.section1 ul li{
+    gap: 0.32em;
+    border-bottom: solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 ul p{
+    margin: 0;
+    color: black;
+
+}
+
+.card{
+
+}
+
+.card p{
+    margin: 0.5em;
+}
+
+.endereco div{
+    display: flex;
+    flex-direction: column;
+}
+
+.container button {
+    font-size: 1em;
+    padding: 0.5em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #b61100;
+    margin-bottom: 1em;
+
+}

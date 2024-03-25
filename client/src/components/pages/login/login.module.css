@@ -1,0 +1,51 @@
+.container {
+ display: flex;
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+}
+
+.form {
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: solid 1px red;
+}
+
+.form h2 {
+    color: red;
+    margin: 0;
+}
+
+.form input,
+.form button {
+    border: none;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.form input {
+    box-shadow: 4px 4px 4px rgb(139, 139, 139);
+}
+
+.form button {
+    font-size: 1em;
+    color: white;
+    background-color: red;
+}
+
+.form a {
+    color: red;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container form {
+        width: 90%;
+    }
+}
