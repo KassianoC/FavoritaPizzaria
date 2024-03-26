@@ -49,8 +49,9 @@
 }
 
 .containerCard {
-    background-color: white;
-    border: solid 1px #b61100;
+    background: transparent;
+    /* background-color: white; */
+    /* border: solid 1px #b61100; */
     border-radius: 5px;
     padding: 0.3em;
     width: 95%;
@@ -77,11 +78,6 @@
 
 .containerCard input {
     text-align: center;
-    box-shadow: 4px 4px 4px rgb(139, 139, 139);
-    border: none;
-    height: 1.5em;
-    border-radius: 5px;
-    align-items: flex-end;
     width: 3em;
 }
 
@@ -96,7 +92,7 @@
 
 .section2{
     flex-direction: column;
-    background-color: white;
+    background-image: url('../../../img/papel2.avif');
     display: flex;
     border-radius: 5px;
     position: absolute;
@@ -106,7 +102,6 @@
     width: 90%;
     padding: 1em;
     align-items: center;
-    border: solid 2px #b61100;
 }
 
 .section2 form{
@@ -120,6 +115,10 @@
     display: flex;
     gap: 1em;
     align-items: center;
+}
+
+.paymethod select{
+    width: 50%;
 }
 
 .button{
@@ -146,6 +145,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.bairro select{
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {

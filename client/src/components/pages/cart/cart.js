@@ -209,21 +209,9 @@ const Cart = () => {
             <h3>Total: R$ {(parseFloat(taxa) + parseFloat(totalValue)).toFixed(2)}</h3>
             <div style={{ display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'space-around' }}>
               <label htmlFor="entregar">Entregar</label>
-              <input
-                style={{ boxShadow: 'none' }}
-                checked={entregar}
-                onChange={() => setEntregar(true)}
-                type="checkbox"
-                name="entregar"
-              />
+              <input checked={entregar} onChange={() => setEntregar(true)} type="checkbox" name="entregar" />
               <label htmlFor="retirar">Retirar</label>
-              <input
-                style={{ boxShadow: 'none' }}
-                checked={!entregar}
-                onChange={() => setEntregar(false)}
-                type="checkbox"
-                name="entregar"
-              />
+              <input checked={!entregar} onChange={() => setEntregar(false)} type="checkbox" name="entregar" />
             </div>
             <input onChange={(e) => setClient(e.target.value)} placeholder="Numero de celular com DDD" type="number" />
 

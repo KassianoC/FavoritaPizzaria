@@ -9,7 +9,9 @@ body {
     flex-direction: column;
     display: flex;
     font-family: 'Roboto', sans-serif;
-    background: radial-gradient(circle, #808080, #000000);
+    /* background: radial-gradient(circle, #808080, #000000); */
+    background-image: url('./img/papel.avif');
+    background-size: cover;
 }
 
 button {
@@ -26,22 +28,24 @@ ul {
     color: black;
 }
 
+h1 {
+    width: 100%;
+    background-color: #683300;
+    text-align: center;
+}
+
 input:focus {
     outline: none;
 }
 
- form input,
- form textarea,
- form select {
-    border: none;
-    height: 2.5em;
+  input,
+  textarea,
+  select {
+    background: transparent;
     border-radius: 5px;
-}
-
- form input,
- form textarea,
- form select {
-    box-shadow: 4px 4px 4px rgb(139, 139, 139);
+    border: solid 1px blue;
+    border-radius: 5px;
+    font-size: 1.1em;
 }
 
 .none {

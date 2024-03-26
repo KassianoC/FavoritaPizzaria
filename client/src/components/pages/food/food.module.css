@@ -5,10 +5,10 @@
 
 .section1{
     gap: 1em;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 10px;
     padding: 1em;
-    border: solid 2px #b61100;
+    /* border: solid 2px #b61100; */
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -28,10 +28,7 @@
 .section1 input,
 .section1 select {
     width: 50%;
-    border: none;
-    height: 2em;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px rgb(139, 139, 139);
+ 
 }
 
 .name,
@@ -43,12 +40,6 @@
     background-color: #b61100;
     padding: 0.2em;
     border-radius: 40px;
-}
-
-.container h2{
-    background-color: transparent;
-    border: solid 3px #b61100 ;
-
 }
 
 .select{
