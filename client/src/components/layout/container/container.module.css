@@ -1,8 +1,11 @@
 .container{
-    min-height: 80vh;
-    max-width: 1200px;
+    min-height: 76vh;
+    max-width: 1400px;
 }
 
 @media screen and (max-width: 768px) {
 
+    .container {
+            min-height: 80vh;
+        }
 }
