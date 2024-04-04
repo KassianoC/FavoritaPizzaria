@@ -7,6 +7,7 @@ import { AuthContext } from '../../../context/auth';
 import { MdOutlineMenuBook } from 'react-icons/md';
 import { BiSolidFoodMenu } from 'react-icons/bi';
 import Logo from '../logo/Logo';
+import { IoFastFoodSharp } from 'react-icons/io5';
 
 function NavBar() {
   const { cart } = useContext(CartContext);
@@ -72,7 +73,7 @@ function NavBar() {
           <>
             {totalItems > 0 && (
               <Link className={classcar} to="/cart">
-                Pedido
+                <IoFastFoodSharp />
                 {totalItems > 0 && <sup>{Number(totalItems)}</sup>}
               </Link>
             )}

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const ip = 'pdvonline.store';
+const ip = 'kassianoc.tech';
 
 export const api = axios.create({
   baseURL: `https://${ip}:2005`,
